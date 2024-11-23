@@ -1,0 +1,4 @@
+curl -sL tinyurl.com/tabs-spaces | sed 's/\t/  /g' > SpacesOnly.java
+curl -sL tinyurl.com/tabs-spaces | sed 's/  /\t/g' > TabsOnly.java
+
+curl -sL tinyurl.com/grey-txt | sed -E 's/gr(e|a)y/yellow/g' > yellow.txt    
