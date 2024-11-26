@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Mark Grünzweil, 26.11.2024, 3 AHIF
+# Funktioniert alles, samt Erweiterungen
+
 o_files=""
 linking=""
 program="./out/$(basename "$(pwd)")"
