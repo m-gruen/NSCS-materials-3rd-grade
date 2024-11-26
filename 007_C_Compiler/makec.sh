@@ -2,9 +2,10 @@
 
 o_files=""
 linking=""
+program="./out/$(basename "$(pwd)")"
 
 for i in *.c; do
-    o_file="$(basename "$i" .c).o"
+    o_file="./out/$(basename "$i" .c).o"
     o_files="$o_files$o_file "
 
     if test ! -e "$o_file" || test "$i" -nt "$o_file"; then
@@ -15,10 +16,10 @@ for i in *.c; do
 done
 
 if test -n "$linking"; then
-    echo "linking $o_files to program ..."
-    cc $o_files -o program
+    echo "linking ${o_files}to program ..."
+    cc $o_files -o $program || exit 1
 fi
 
 echo "running program ..."
-./program
+$program
 exit 0
