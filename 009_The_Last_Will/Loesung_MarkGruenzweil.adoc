@@ -1,0 +1,109 @@
+= The Last Will Lösung
+
+== Mark Grünzweil, 3 AHIF, 29.11.2024
+
+== Anleitung:
+
+Als erstes schaut man sich die PDF an:
+
+image::./Img/pdf.png[Bild]
+
+Dort findet man diesen Morsecode:
+
+----
+-- -... .-.-.- ... -... -..-. -.. .- -.
+----
+
+Diesen übersetzt man:
+
+image::./Img/morecode.png[Bild]
+
+Danach erhält man diesen Link:
+
+----
+MB.SB/DAN
+----
+
+image::./Img/url.png[Bild]
+
+Wenn man diesen Link dann öffnet, erhält man einen Zip-Ordner:
+
+image::./Img/folders.png[Bild]
+
+Wenn man das File in dem Folder ausgibt bekommt man diesen Regex:
+
+----
+[rls]ev.t[^xyz]t[^i]$
+----
+
+image::./Img/regex.png[Bild]
+
+Danach sucht man im anderen Folder mit dem Regex und findet das:
+
+----
+https://mb.sb/levitate
+----
+
+image::./Img/grep_regex.png[Bild]
+
+Wenn man diesen Link öffnet, erhält man diesen Folder:
+
+image::./Img/folders_regex.png[Bild]
+
+Danach öffnet man https://georgeom.net/StegOnline/upload[StegOnline].
+
+image::./Img/stegonline.png[Bild]
+
+Man lädt das Bild hoch und gibt das ein:
+
+image::./Img/stegonline_input.png[Bild]
+
+Wenn man das herunterlädt, erhält man das:
+
+image::./Img/stegonline_code.png[Bild]
+
+Wenn man diesen QR-Code scannt, bekommt man das:
+
+image::./Img/code_scan.png[Bild]
+
+----
+You expect to get rich, don't you?
+----
+
+In dem Folder ist ein weiter zip Folder der Passwort geschützt ist:
+
+image::./Img/error.png[Bild]
+
+Das Passwort ist der Text von dem QR-Code:
+
+Wenn man das File unzipped erhält man das:
+
+image::./Img/folder_code.png[Bild]
+
+Diese MP3 Datei muss man jetzt noch reversen:
+
+image::./Img/reverse.png[Bild]
+
+image::./Img/reverse_mp3.png[Bild]
+
+Wenn man die Datei abspielt, kann man hören:
+
+----
+Er vererbt sein ganzes Vermögen an seine Katze.
+----
+
+Das zweite Rätsel ist das Bild. 
+
+Hier muss man die Base 64 Datei decoden:
+
+image::./Img/base64.png[Bild]
+
+image::./Img/base64_encode.png[Bild]
+
+Wenn man das macht erhält man das:
+
+image::./Img/file.png[Bild]
+
+image::./Img/file.jpeg[Bild]
+
+Das ist ein Bild von seiner Katze.
