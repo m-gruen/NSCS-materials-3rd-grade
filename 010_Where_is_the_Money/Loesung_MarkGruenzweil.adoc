@@ -91,5 +91,5 @@ image::./Img/mp3_file.png[Bild]
 Beim Anhören kann man der er das Geld hier versteckt hat:
 
 ```
-Westmansterstreet 14, behind the trashcan 
+Westminster Street 14, behind the trashcan 
 ```
