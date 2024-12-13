@@ -1,3 +1,95 @@
 = Where is the solution?
 
 == Mark Grünzweil, 3 AHIF, 06.12.2024
+
+== Lösung
+
+**Herunterladen der Anfangsdatei**
+
+image::./Img/drive_zip.png[Bild]
+
+**Benutzen von Testdisk um die Datei zu bekommen**
+
+image::./Img/testdisk.png[Bild]
+
+image::./Img/testdisk1.png[Bild]
+
+image::./Img/testdisk2.png[Bild]
+
+image::./Img/after_testdisk.png[Bild]
+
+**Lesen der PDF Datei 'Instructions_for_James.pdf'**
+
+image::./Img/instructions_james.png[][Bild]
+
+**Auf https://georgeom.net/StegOnline/upload[StegOnline] gehen und die Datei hochladen**
+
+image::./Img/stegOnline.png[Bild]
+
+image::./Img/stegOnline_riddle.png[Bild]
+
+image::./Img/stegOnline_result.png[Bild]
+
+image::./Img/stegOnline_result_file.png[Bild]
+
+> **_Note:_**  Die Datei ist komplett sinlos und hat keinen wertvollen Inhalt für die Lösung.
+
+**Decoden der Base64 Datei**
+
+image::./Img/base64_decode_website.png[Bild]
+
+image::./Img/base64_decode.png[Bild]
+
+image::./Img/base64_decode_file.png[Bild]
+
+Inhalt der Datei:
+
+```
+----------------------------------------+------------------------
+PASSWORD                                | DESCRIPTION
+----------------------------------------+------------------------
+We can be heroes, just for one day      | QR codes for James
+----------------------------------------+------------------------
+Life on Mars?                           | Twitter
+----------------------------------------+------------------------
+Ground control to Major Tom             | SoundCloud
+----------------------------------------+------------------------
+```
+
+**Den Verschlüsselten Zip Ordner decoden**
+
+Passwort: We can be heroes, just for one day
+
+image::./Img/password_zipfolder.png[Bild]
+
+image::./Img/locked_Zip.png[Bild]
+
+**Den QR-Code scannen**
+
+image::./Img/qrcode.png[Bild]
+
+image::./Img/qrCode_scan.png[Bild]
+
+**Auf dieser Website das Bild herunterladen**
+
+image::./Img/qrcode_image.png[Bild]
+
+**Dieses Bild wieder auf https://georgeom.net/StegOnline/upload[StegOnline] hochladen**
+
+image::./Img/stegOnline.png[Bild]
+
+image::./Img/stegOnline_riddle.png[Bild]
+
+image::./Img/stegOnline_qrcode_file_result.png[Bild]
+
+**Downloaden der Datei**
+
+image::./Img/mp3_file.png[Bild]
+
+**Den Sound anhören**
+
+Beim Anhören kann man der er das Geld hier versteckt hat:
+
+```
+Westmansterstreet 14, behind the trashcan 
+```
